@@ -34,7 +34,7 @@ class MyDrawer extends StatelessWidget {
             ListTile(
               leading: Icon(CupertinoIcons.home),
               title: Text("Home",textScaleFactor: 1.2,),
-              trailing: Icon(CupertinoIcons.video_camera),
+              //trailing: Icon(CupertinoIcons.video_camera),
               onTap: () {
                 
               },
@@ -42,17 +42,14 @@ class MyDrawer extends StatelessWidget {
             ListTile(
               leading: Icon(CupertinoIcons.settings,),
               title: Text("Settings",textScaleFactor: 1.2,),
-              trailing: Icon(CupertinoIcons.video_camera),
             ),
             ListTile(
               leading: Icon(CupertinoIcons.mail,),
               title: Text("Mail",textScaleFactor: 1.2,),
-              trailing: Icon(CupertinoIcons.video_camera),
             ),
             ListTile(
               leading: Icon(CupertinoIcons.profile_circled,),
               title: Text("Profile",textScaleFactor: 1.2,),
-              trailing: Icon(CupertinoIcons.video_camera),
             )
           ],
         ),
